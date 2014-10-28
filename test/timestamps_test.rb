@@ -1,6 +1,4 @@
-require 'cutest'
-require 'shoden'
-require 'shoden/contrib'
+require_relative 'helper'
 
 class Trip < Shoden::Model
   include Shoden::Timestamps

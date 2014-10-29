@@ -18,7 +18,7 @@ module Shoden
       super
 
       self.class.default_attributes.each do |k,v|
-        self.send("#{k}=", v) if !self.send(k)
+        self.send(:"#{k}=", v) if !@attributes.keys.include?(k)
       end
     end
   end

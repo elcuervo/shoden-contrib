@@ -1,4 +1,4 @@
-# Shoden Contrib
+# Shoden Contrib - [![Gem Version](https://badge.fury.io/rb/shoden-contrib.svg)](http://badge.fury.io/rb/shoden-contrib)
 
 ![](http://www.lashwallpapers.com/wp-content/uploads/2014/05/elephant-wallpaper-in-hd-free-download.jpg)
 

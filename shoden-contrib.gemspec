@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.files             = `git ls-files`.split("\n")
   s.test_files        = `git ls-files test`.split("\n")
 
-  s.add_dependency("shoden", "~> 0.2.0")
+  s.add_dependency("shoden", ">= 0.2.0")
   s.add_development_dependency("cutest", "~> 1.2.1")
 end

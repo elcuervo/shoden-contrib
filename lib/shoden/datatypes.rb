@@ -9,6 +9,7 @@ module Shoden
       Integer   = ->(x) { x.to_i }
       Decimal   = ->(x) { BigDecimal(x.to_s) }
       Float     = ->(x) { x.to_f }
+      Boolean   = ->(x) { !!x }
       Symbol    = ->(x) { x && x.to_sym }
       Time      = ->(t) { t && (t.kind_of?(::Time) ? t : ::Time.parse(t)) }
       Date      = ->(d) { d && (d.kind_of?(::Date) ? d : ::Date.parse(d)) }
